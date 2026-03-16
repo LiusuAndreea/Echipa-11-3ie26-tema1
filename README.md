@@ -46,7 +46,7 @@ Site de prezentare pentru o cafenea modernă, cu design elegant și responsive.
 - GitHub pentru colaborare
 
 ## Contribuția membrilor echipei
-- Membrul 1: Home, navbar, footer
-- Membrul 2: About, Menu
+- Membrul 1 Liusu Andreea : Home, navbar, footer
+- Membrul 2 : About, Menu
 - Membrul 3: Gallery, responsive design
 - Membrul 4: Contact, formular, README, testare finală

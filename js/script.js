@@ -5,7 +5,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
   if (hamburger && mobileMenu) {
     hamburger.addEventListener('click', () => {
-      mobileMenu.classList.toggle('open');
+      const isOpen = mobileMenu.classList.toggle('open');
+      hamburger.setAttribute('aria-expanded', isOpen);
     });
   }
 
