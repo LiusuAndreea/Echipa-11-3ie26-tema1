@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Menu — Aroma Café</title>
+  <meta name="description" content="Explore Aroma Café's menu of handcrafted coffee, cold drinks, teas, and fresh desserts." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="container-narrow">
+      <a href="index.html" class="navbar-brand">☕ Aroma Café</a>
+      <nav class="navbar-links"><a href="index.html">Home</a><a href="about.html">About</a><a href="menu.html">Menu</a><a href="gallery.html">Gallery</a><a href="contact.html">Contact</a></nav>
+      <button class="hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+    <nav class="mobile-menu"><a href="index.html">Home</a><a href="about.html">About</a><a href="menu.html">Menu</a><a href="gallery.html">Gallery</a><a href="contact.html">Contact</a></nav>
+  </header>
+
+  <main>
+    <section class="page-header section-padding">
+      <h1>Our Menu</h1>
+      <p>Carefully crafted beverages and treats made with the finest ingredients.</p>
+    </section>
+
+    <section class="section-padding" style="background: var(--warm-white);">
+      <div class="container-narrow">
+        <div class="menu-tabs">
+          <button class="menu-tab active" data-category="coffee">Coffee</button>
+          <button class="menu-tab" data-category="cold">Cold Drinks</button>
+          <button class="menu-tab" data-category="tea">Tea</button>
+          <button class="menu-tab" data-category="desserts">Desserts</button>
+        </div>
+
+        <div id="coffee" class="menu-category active">
+          <div class="menu-item"><div class="menu-item-info"><h3>Espresso</h3><p>Rich and bold single shot of our house blend</p></div><span class="menu-item-price">$3.50</span></div>
+          <div class="menu-item"><div class="menu-item-info"><h3>Cappuccino</h3><p>Espresso with steamed milk and silky foam</p></div><span class="menu-item-price">$4.75</span></div>
+          <div class="menu-item"><div class="menu-item-info"><h3>Flat White</h3><p>Double espresso with velvety micro-foam milk</p></div><span class="menu-item-price">$5.00</span></div>
+          <div class="menu-item"><div class="menu-item-info"><h3>Pour Over</h3><p>Hand-brewed single-origin, changes weekly</p></div><span class="menu-item-price">$5.50</span></div>
+          <div class="menu-item"><div class="menu-item-info"><h3>Mocha</h3><p>Espresso blended with rich chocolate and steamed milk</p></div><span class="menu-item-price">$5.25</span></div>
+          <div class="menu-item"><div class="menu-item-info"><h3>Americano</h3><p>Double espresso with hot water for a smooth finish</p></div><span class="menu-item-price">$4.00</span></div>
+        </div>
+
+        <div id="cold" class="menu-category">
+          <div class="menu-item"><div class="menu-item-info"><h3>Cold Brew</h3><p>Slow-steeped for 18 hours, smooth and refreshing</p></div><span class="menu-item-price">$5.00</span></div>
+          <div class="menu-item"><div class="menu-item-info"><h3>Iced Latte</h3><p>Espresso over ice with your choice of milk</p></div><span class="menu-item-price">$5.25</span></div>
+          <div class="menu-item"><div class="menu-item-info"><h3>Matcha Lemonade</h3><p>Ceremonial matcha shaken with fresh lemonade</p></div><span class="menu-item-price">$5.75</span></div>
+          <div class="menu-item"><div class="menu-item-info"><h3>Fresh Orange Juice</h3><p>Squeezed to order from Valencia oranges</p></div><span class="menu-item-price">$4.50</span></div>
+        </div>
+
+        <div id="tea" class="menu-category">
+          <div class="menu-item"><div class="menu-item-info"><h3>English Breakfast</h3><p>Full-bodied black tea, perfect with milk</p></div><span class="menu-item-price">$3.50</span></div>
+          <div class="menu-item"><div class="menu-item-info"><h3>Chamomile</h3><p>Calming herbal blend with hints of honey</p></div><span class="menu-item-price">$3.50</span></div>
+          <div class="menu-item"><div class="menu-item-info"><h3>Earl Grey</h3><p>Classic bergamot-infused black tea</p></div><span class="menu-item-price">$3.50</span></div>
+          <div class="menu-item"><div class="menu-item-info"><h3>Chai Latte</h3><p>Spiced chai simmered with steamed milk</p></div><span class="menu-item-price">$4.75</span></div>
+        </div>
+
+        <div id="desserts" class="menu-category">
+          <div class="menu-item"><div class="menu-item-info"><h3>Butter Croissant</h3><p>Flaky, golden, baked fresh every morning</p></div><span class="menu-item-price">$3.75</span></div>
+          <div class="menu-item"><div class="menu-item-info"><h3>Blueberry Muffin</h3><p>Bursting with wild blueberries and lemon zest</p></div><span class="menu-item-price">$3.50</span></div>
+          <div class="menu-item"><div class="menu-item-info"><h3>Tiramisu Slice</h3><p>Layers of mascarpone, espresso-soaked ladyfingers</p></div><span class="menu-item-price">$6.50</span></div>
+          <div class="menu-item"><div class="menu-item-info"><h3>Chocolate Brownie</h3><p>Dense, fudgy, made with Belgian dark chocolate</p></div><span class="menu-item-price">$4.25</span></div>
+          <div class="menu-item"><div class="menu-item-info"><h3>Cinnamon Roll</h3><p>Warm, gooey, topped with cream cheese glaze</p></div><span class="menu-item-price">$4.50</span></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container-narrow section-padding">
+      <div class="footer-grid">
+        <div><div class="footer-brand">☕ Aroma Café</div><p>A cozy neighborhood café serving handcrafted coffee and fresh pastries since 2015. Every cup tells a story.</p></div>
+        <div><h4>Quick Links</h4><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="menu.html">Menu</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+        <div><h4>Visit Us</h4><div class="footer-contact-item">📍 123 Brew Street, Coffee District, CA 90210</div><div class="footer-contact-item">📞 (555) 123-4567</div><div class="footer-contact-item">✉️ hello@aromacafe.com</div></div>
+      </div>
+      <div class="footer-bottom"><p>© 2025 Aroma Café. All rights reserved.</p></div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

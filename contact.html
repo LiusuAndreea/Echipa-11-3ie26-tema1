@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Aroma Café</title>
+  <meta name="description" content="Get in touch with Aroma Café. Visit us, call, or send a message through our contact form." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="container-narrow">
+      <a href="index.html" class="navbar-brand">☕ Aroma Café</a>
+      <nav class="navbar-links"><a href="index.html">Home</a><a href="about.html">About</a><a href="menu.html">Menu</a><a href="gallery.html">Gallery</a><a href="contact.html">Contact</a></nav>
+      <button class="hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+    <nav class="mobile-menu"><a href="index.html">Home</a><a href="about.html">About</a><a href="menu.html">Menu</a><a href="gallery.html">Gallery</a><a href="contact.html">Contact</a></nav>
+  </header>
+
+  <main>
+    <section class="page-header section-padding">
+      <h1>Contact Us</h1>
+      <p>We'd love to hear from you. Drop us a message or visit us in person.</p>
+    </section>
+
+    <section class="section-padding" style="background: var(--warm-white);">
+      <div class="container-narrow contact-grid">
+        <div>
+          <h2 style="font-family: var(--font-heading); font-size: 1.5rem; font-weight: 700; margin-bottom: 1.5rem;">Send Us a Message</h2>
+          <div id="form-success" class="form-success" style="display:none;">Thank you! Your message has been sent successfully. We'll get back to you soon.</div>
+          <form id="contact-form" class="contact-form">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your full name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" required />
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="What's this about?" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Your message..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+
+        <div>
+          <div class="contact-info">
+            <h3>Visit Our Café</h3>
+            <div class="contact-info-item"><strong>📍 Address:</strong> 123 Brew Street, Coffee District, CA 90210</div>
+            <div class="contact-info-item"><strong>📞 Phone:</strong> (555) 123-4567</div>
+            <div class="contact-info-item"><strong>✉️ Email:</strong> hello@aromacafe.com</div>
+          </div>
+          <div class="contact-info" style="margin-top: 2rem;">
+            <h3>Opening Hours</h3>
+            <div class="contact-info-item">Monday – Friday: 6:30 AM – 8:00 PM</div>
+            <div class="contact-info-item">Saturday: 7:00 AM – 9:00 PM</div>
+            <div class="contact-info-item">Sunday: 8:00 AM – 6:00 PM</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container-narrow section-padding">
+      <div class="footer-grid">
+        <div><div class="footer-brand">☕ Aroma Café</div><p>A cozy neighborhood café serving handcrafted coffee and fresh pastries since 2015. Every cup tells a story.</p></div>
+        <div><h4>Quick Links</h4><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="menu.html">Menu</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+        <div><h4>Visit Us</h4><div class="footer-contact-item">📍 123 Brew Street, Coffee District, CA 90210</div><div class="footer-contact-item">📞 (555) 123-4567</div><div class="footer-contact-item">✉️ hello@aromacafe.com</div></div>
+      </div>
+      <div class="footer-bottom"><p>© 2025 Aroma Café. All rights reserved.</p></div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
