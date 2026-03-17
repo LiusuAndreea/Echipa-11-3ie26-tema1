@@ -47,6 +47,6 @@ Site de prezentare pentru o cafenea modernă, cu design elegant și responsive.
 
 ## Contribuția membrilor echipei
 - Membrul 1 Liusu Andreea : Home, navbar, footer
-- Membrul 2 : About, Menu
-- Membrul 3: Gallery, responsive design
-- Membrul 4: Contact, formular, README, testare finală
+- Membrul 2 Iurescu Cezara: About, Menu
+- Membrul 3 Lal Andrada: Gallery, responsive design
+- Membrul 4 Bosiok Klaudia : Contact, formular, README, testare finală
